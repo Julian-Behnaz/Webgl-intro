@@ -1,4 +1,4 @@
-
+![Triangles](./src/media/Triangles.png)
 
 ## First-time Setup
 

@@ -8,7 +8,7 @@ stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
 stats.dom.style.left = "auto";
 stats.dom.style.right = "0";
 stats.dom.style.top = "50px";
-document.body.appendChild(stats.dom);
+// document.body.appendChild(stats.dom);
 
 const canvas = document.querySelector("#main") as HTMLCanvasElement;
 
