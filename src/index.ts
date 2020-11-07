@@ -35,19 +35,19 @@ const timeUniformLocation= gl.getUniformLocation(program, "u_time");
 
 const numTriangles = 1000;
 
-const colorBuffer = gl.createBuffer();
-{
-    gl.bindBuffer(gl.ARRAY_BUFFER, colorBuffer);
+// const colorBuffer = gl.createBuffer();
+// {
+//     gl.bindBuffer(gl.ARRAY_BUFFER, colorBuffer);
     
-    const color = new Float32Array(numTriangles * 3);
-    for (let i = 0; i < numTriangles; i++) {
-        color[i*3] = Math.random();
-        color[i*3+1] = Math.random();
-        color[i*3+2] = Math.random();
-    }
-    gl.bufferData(gl.ARRAY_BUFFER, color, gl.STATIC_DRAW);
+//     const color = new Float32Array(numTriangles * 3);
+//     for (let i = 0; i < numTriangles; i++) {
+//         color[i*3] = Math.random();
+//         color[i*3+1] = Math.random();
+//         color[i*3+2] = Math.random();
+//     }
+//     gl.bufferData(gl.ARRAY_BUFFER, color, gl.STATIC_DRAW);
     
-}
+// }
 
 const positionBuffer = gl.createBuffer();
 {

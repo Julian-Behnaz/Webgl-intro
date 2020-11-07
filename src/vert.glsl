@@ -34,6 +34,7 @@ void main() {
     mat3 mat = mat3(  cos(_angle),      -sin(_angle),     0.0,
                       sin(_angle),      cos(_angle),      0.0,
                       a_translation.x,  a_translation.y,  1.0);
+                      // changing to -sin in the first column will change the direction of rotation. Also note that col & rows are flipped from math notation. 
 
 
 

@@ -1,4 +1,5 @@
 ![Triangles](./src/media/Triangles.png)
+![trigif](src/media/trigif.gif)
 
 ## First-time Setup
 
